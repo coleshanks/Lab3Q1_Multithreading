@@ -15,15 +15,32 @@ namespace Lab3Q1
                 // Implement your tests here. Check all the edge case scenarios.
                 // Create a large list which iterates over WCTester
                 //=================================================
-                string line;
-                int startIdx;
-                int expectedResults;
 
-                line = "There was a brown dog who jumped over the black cat";
-                startIdx = 0;
-                expectedResults = 9;
+                string test1 = "There was a brown dog who jumped over the black cat";
+                int startIdx1 = 0;
+                int expectedResults1 = 10;
 
-                WCTester(line, startIdx, expectedResults);
+                string test2 = "There was a brown dog who jumped over the black cat";
+                int startIdx2 = 0;
+                int expectedResults2 = 10;
+
+                string test3 = "There was a brown dog who jumped over the black cat";
+                int startIdx3 = 0;
+                int expectedResults3 = 10;
+
+                string test4 = "There was a brown dog who jumped over the black cat";
+                int startIdx4 = 0;
+                int expectedResults4 = 10;
+
+                string test5 = "There was a brown dog who jumped over the black cat";
+                int startIdx5 = 0;
+                int expectedResults5 = 10;
+
+                WCTester(test1, startIdx1, expectedResults1);
+                WCTester(test2, startIdx2, expectedResults2);
+                WCTester(test3, startIdx3, expectedResults3);
+                WCTester(test4, startIdx4, expectedResults4);
+                WCTester(test5, startIdx5, expectedResults5);
 
             }
             catch (UnitTestException e)

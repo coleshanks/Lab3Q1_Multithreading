@@ -184,6 +184,7 @@ namespace Lab3Q1
                 Console.WriteLine("{0}\t{1}",pairItem.Key, pairItem.Value);
                 sortedByValueList.Add(Tuple.Create(pairItem.Value, pairItem.Key));
             }
+
             PrintListofTuples(sortedByValueList);
 
             return sortedByValueList;
