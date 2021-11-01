@@ -21,20 +21,20 @@ namespace Lab3Q1
                 int expectedResults1 = 10;
 
                 string test2 = "There was a brown dog who jumped over the black cat";
-                int startIdx2 = 0;
-                int expectedResults2 = 10;
+                int startIdx2 = 7;
+                int expectedResults2 = 3;
 
-                string test3 = "There was a brown dog who jumped over the black cat";
+                string test3 = "There was a   brown dog who jumped over the black cat";
                 int startIdx3 = 0;
                 int expectedResults3 = 10;
 
-                string test4 = "There was a brown dog who jumped over the black cat";
+                string test4 = "     There was a brown dog who jumped over the black cat";
                 int startIdx4 = 0;
                 int expectedResults4 = 10;
 
                 string test5 = "There was a brown dog who jumped over the black cat";
-                int startIdx5 = 0;
-                int expectedResults5 = 10;
+                int startIdx5 = 9;
+                int expectedResults5 = 1;
 
                 WCTester(test1, startIdx1, expectedResults1);
                 WCTester(test2, startIdx2, expectedResults2);
